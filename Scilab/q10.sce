@@ -3,7 +3,7 @@ clear; clf; clc;
  f = 100; T = 1/f; ts = T/100; 
 t = 0:ts:4*T; 
 x = sin(2*%pi*f*t); 
-y = sin(2*%pi*2*f*t); 
+y = sin(4*%pi*f*t); 
 z = x + y; 
 subplot(311);
 plot(t,x);

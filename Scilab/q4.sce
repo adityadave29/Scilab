@@ -1,7 +1,7 @@
 // This program plots a CT sine wave 
 clc; clear;  clf;
 A = 1; f = 100; T = 1/f; ts = T/100;
-N = 5 ; // Number of cycles
+N = 1 ; // Number of cycles
 w = 2*%pi*f; 
 Theta =0 ; 
 t = 0:ts:N*T; 

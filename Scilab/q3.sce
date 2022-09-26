@@ -1,6 +1,6 @@
 clear; clf;clc;
 
-t1 = 0:2:6; t2 = 0:0.1:6; 
+t1 = 0:2:6; t2 = 0:4:12; 
 x = t1.^2; 
 y = t2.^2;
 //x*y is taken to be matrix multiplication
